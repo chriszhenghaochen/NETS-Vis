@@ -6,11 +6,6 @@ This is the work done by me and my partner ***Jeremy Swanson***  Email: Jeremy.S
 
 I contains some python scripts and some java libraries for the purpose of analysing trajectory data using machine learning, and then visualising those results.
 
-the techniques we used include:
-
-*DTW
-*SOM
-and other visual analysing methodologies
 
 ## Data
 The data we're using is the VAST 2015 challenge data(http://vacommunity.org/VAST+Challenge+2015) The main data files are too big to include in the repo, so aren't included.
