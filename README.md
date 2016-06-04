@@ -16,3 +16,7 @@ I have uploaded our publish paper on the top, also in each folder, there is read
 
 ## Co-Author
 Jeremy Swanson (Jeremy.Swanson@nicta.com.au)
+
+## Acknowledgement:
+1. DTW library is modified from https://code.google.com/archive/p/fastdtw/
+2. SOM library is modified from https://github.com/sevamoo/SOMPY
