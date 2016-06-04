@@ -1,0 +1,23 @@
+These are the ids of people that seem to teleport. There could be a valid reason for some of them, maybe
+
+-- Sat --
+id 212756,  x = 85, y = 33
+id 237750,  x = 85, y = 33
+id 786972,  x = 85, y = 33
+id 1421406, x = 85, y = 33
+id 1440397, x = 85, y = 33
+id 1484697, x = 85, y = 33
+
+id 1975667, x = 28, y = 33
+
+id 1983765, x = 48, y = 10
+
+-- Sun --
+id 227221,  x = 6, y = 71
+id 392618,  x = 7, y = 71
+id 1336607, x = 6, y = 71
+id 1722376, x = 6, y = 71
+id 1483705, x = 5, y = 66
+id 2063022, x = 4, y = 52
+
+id 1080969, x = 10, y = 23

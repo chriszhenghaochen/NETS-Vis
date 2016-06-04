@@ -1,0 +1,10 @@
+this foldor contains the full stroyboard of SOM:
+
+	1. SOMHCI:
+		run som and compare cluster by decoding U-matrix 
+		
+	2. Trajectory Comparison :
+		compare trajecotres of 2 groups running animation and 3D plot
+		
+	3. DTW:
+		running DTW library to run DTW computing the distance of 2 signals of 2 groups 

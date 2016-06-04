@@ -1,0 +1,74 @@
+place_id,name,category,X,Y
+1,Wrightiraptor Mountain,Thrill Rides,47,11
+2,Galactosaurus Rage,Thrill Rides,27,15
+3,Auvilotops Express,Thrill Rides,38,90
+4,TerrorSaur,Thrill Rides,78,48
+5,Wendisaurus Chase,Thrill Rides,16,66
+6,Keimosaurus Big Spin,Thrill Rides,86,44
+7,Firefail,Thrill Rides,17,43
+8,Atmosfear,Thrill Rides,45,24
+9,North Line,Kiddie Rides,92,81
+10,Jeredactyl Jump,Kiddie Rides,81,77
+11,Sauroma Bumpers,Kiddie Rides,73,79
+12,Flying TyrAndrienkos,Kiddie Rides,73,84
+13,Cyndisaurus Asteroid,Kiddie Rides,79,87
+14,Beelzebufo,Kiddie Rides,76,88
+15,Enchanted Toadstools,Kiddie Rides,79,89
+16,Stegocycles,Kiddie Rides,82,80
+17,Blue Iguanodon,Kiddie Rides,83,88
+18,Wild Jungle Cruise,Kiddie Rides,85,86
+19,Stone Cups,Kiddie Rides,87,81
+20,Scholtz Express,Rides for Everyone,6,43
+21,Paleocarrie Carousel,Rides for Everyone,34,68
+22,Jurassic Road,Rides for Everyone,17,67
+23,Rhynasaurus Rampage,Rides for Everyone,16,49
+24,Kauf's Lost Canyon Escape,Rides for Everyone,43,56
+25,Maiasaur Madness,Rides for Everyone,26,59
+26,Kristanodon Kaper,Rides for Everyone,28,66
+27,Squidosaur,Rides for Everyone,48,87
+28,Eberlesaurus Roundup,Rides for Everyone,23,54
+29,Dykesadacyl Thrill,Rides for Everyone,87,48
+30,Ichthyoroberts Rapids,Rides for Everyone,78,37
+31,Raptor Race,Rides for Everyone,43,78
+32,Creighton Pavilion,Shows & Entertainment,32,33
+33,Alvarez Beer Garden,Beer Gardens,21,33
+34,Mary Anning Beer Garden,Beer Gardens,79,25
+35,Theresaur Food Stop,Food,59,46
+36,Paleo Shreckwiches,Food,35,15
+37,Krystal Cook Cafe,Food,59,89
+38,Shilobite o'Pizza,Food,57,73
+39,Chensational Sweets,Food,87,68
+40,Munzasaurus Souvenirs,Shopping,42,60
+41,Laskonasaur Store,Shopping,57,64
+42,World of WarRocks Shop,Shopping,17,47
+43,Whitley's Plushadactyl,Shopping,44,25
+44,Staskosaurus Designs,Shopping,69,72
+45,Dino Chic Clothing,Shopping,57,80
+46,Petroglyph Body Art,Shopping,22,34
+47,League of Legenodons,Shopping,69,58
+48,The Magic Cavern,Shopping,29,67
+49,Raptor Restroom,Restrooms,3,66
+50,Tar Pit Stop,Restrooms,52,28
+51,LavaTory,Restrooms,55,50
+52,TriceraStop,Restrooms,76,73
+53,Smoky Wood BBQ,Food,15,40
+54,Ice Age Cones,Food,84,78
+55,Plaisantly Popped Corn,Food,76,61
+56,Floral Funnels,Food,43,75
+57,Permafrosties,Food,42,20
+58,Granite Slab Pizza,Food,47,79
+59,EberTrex Fries,Food,23,66
+61,Primal Carnage Arcade,Shows & Entertainment,69,67
+62,Liggement Fix-Me-Up,Information & Assistance,50,57
+63,Grinosaurus Stage,Shows & Entertainment,76,22
+64,SabreTooth Threatre,Shows & Entertainment,87,63
+65,Darwin's Stop,Restrooms,22,27
+66,Tyrannosaurus Rest,Restrooms,73,20
+67,Fisching Rooms,Restrooms,92,77
+81,Flight of the Swingodon,Thrill Rides,69,44
+100,Park Left,Outdoor Area,42,37
+101,Park Middle,Outdoor Area,60,37
+102,Park Right,Outdoor Area,67,37
+103,Exit Left,Entry/Exit,0,67
+104,Exit Top,Entry/Exit,63,99
+105,Exit Right,Entry/Exit,99,77
