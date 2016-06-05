@@ -19,13 +19,13 @@ Jeremy Swanson (Jeremy.Swanson@nicta.com.au)
 
 ## Libraries Requirement:
 
-# Chris Folder:
+### Chris Folder:
  * Python 2
  * Java > 6
  * Scipy(numpy, pandas, matplotlib)
  * Scikit Learn
 
-# Jeremy Folder:
+### Jeremy Folder:
  * Python 3
  * Scipy(numpy, pandas, matplotlib)
  * Scikit Learn
