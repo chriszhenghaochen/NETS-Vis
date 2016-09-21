@@ -33,6 +33,12 @@ Jeremy Swanson (Jeremy.Swanson@nicta.com.au)
   
 I would suggest you just use Anaconda for this open source https://www.continuum.io/downloads
 
+## Publication:
+The paper has submitted to the The 2017 International Joint Conference on Neural Networks (IJCNN 2017)
+http://www.ijcnn.org/
+
+I will update the publicated version soon
+
 ## Acknowledgement:
 1. DTW library is modified from https://code.google.com/archive/p/fastdtw/
 2. SOM library is modified from https://github.com/sevamoo/SOMPY
