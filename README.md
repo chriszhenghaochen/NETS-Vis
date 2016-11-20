@@ -5,7 +5,7 @@ NEsTS-Vis is a ***Neural Net System of Time Time-Spatial Visualization***
 
 It contains some python scripts and some java libraries for the purpose of analysing trajectory data using machine learning, and then visualising those results.
 
-The main algorithm of it are ***Self-Organizing Map*** and ***Recurrent Neural Net***, the front end of system contain Heat Map, Dynamic Time Warping, 3D cube and other Visualization Tools
+The main algorithms of it are ***Self-Organizing Map*** and ***Recurrent Neural Net***, the front end of system contain Heat Map, Dynamic Time Warping, 3D cube and other Visualization Tools
 
 ## Data
 * VAST 2015 challenge data(http://vacommunity.org/VAST+Challenge+2015)
