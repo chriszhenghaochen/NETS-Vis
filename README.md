@@ -31,6 +31,8 @@ You are alwayws welcome to contact any of us if you have any ideas or feel free 
  * Java > 6
  * Scipy(numpy, pandas, matplotlib)
  * Scikit Learn
+ * sompy https://github.com/sevamoo/SOMPY (I modify this library, thanks to Dr Vahid Moosavi)
+ * fast DTW https://pypi.python.org/pypi/fastdtw/0.3.0
 
 ### Jeremy Folder:
  * Python 3
