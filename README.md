@@ -12,9 +12,9 @@ The main algorithm of it are ***Self-Organizing Map*** and ***Recurrent Neural N
 
 
 ## Document
-In each folder, there is readme for user as well as presentation slide with me and Jeremy
 
-I will update the Published paper soon
+* In each folder, there is readme for user as well as presentation slide with me and Jeremy
+* I will update the Published paper soon
 
 ## Members
 * Zhenghao Chen (zhenghao.chen@sydney.edu.au)
@@ -47,7 +47,4 @@ http://www.ijcnn.org/
 I will update the publicated version soon
 
 ## Acknowledgement:
-
-* This work is sponsored by CSIRO https://www.csiro.au/ and USYD http://sydney.edu.au/
-* DTW library is modified from https://code.google.com/archive/p/fastdtw/
-* SOM library is modified from https://github.com/sevamoo/SOMPY
+This work is sponsored by CSIRO https://www.csiro.au/ and USYD http://sydney.edu.au/
