@@ -21,8 +21,8 @@ NETS-Vis is a ***Neural Net based Framework of Safety-Oriented Time Time-Spatial
 
 ## Members
 * Zhenghao Chen (zhenghao.chen@sydney.edu.au)
-* Jeremy Swanson (Jeremy.Swanson@nicta.com.au)
-* Dr Jianlong Zhou (Jianlong.Zhou@data61.csiro.au)
+* Jeremy Swanson (jeremy.swanson@nicta.com.au)
+* Dr Jianlong Zhou (jianlong.zhou@data61.csiro.au)
 * Dr Xiuying Wang (xiu.wang@sydney.edu.au)
 
 You are alwayws welcome to contact any of us if you have any ideas or feel free to have your pull request.
