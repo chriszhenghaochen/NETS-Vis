@@ -1,2 +1,2 @@
-*** For processing and clustering mobli data ***
+For processing and clustering mobli data
 
