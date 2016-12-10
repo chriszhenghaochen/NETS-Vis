@@ -4,7 +4,7 @@ This work contain all works done by Chris include
 
 
 To run this make sure you have:
-1. Jeremy's folder 
+1. visulization tool folder 
 2. Python 2&3
 3. python libraries:
 	i. sk-learn

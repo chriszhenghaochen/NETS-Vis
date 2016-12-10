@@ -3,17 +3,17 @@
 ######################CREATE Node######################
 
 ###User
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/chriszhenghaochen/NesTS-Vis/master/user.csv" AS row
+LOAD CSV WITH HEADERS FROM "DIR" AS row
 CREATE (u:User)
 SET u.id =toInt(row.id);
 
 ###Station
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/chriszhenghaochen/NesTS-Vis/master/station.csv" AS row
+LOAD CSV WITH HEADERS FROM "DIR" AS row
 CREATE (u:Station)
 SET u.id =toInt(row.id);
 
 ###IP
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/chriszhenghaochen/NesTS-Vis/master/IP.csv" AS row
+LOAD CSV WITH HEADERS FROM "DIR" AS row
 CREATE (u:User)
 SET u.id =row.id;
 
@@ -23,7 +23,7 @@ SET u.id =row.id;
 
 ###visits RELATIONSHIP
 USING PERIODIC COMMIT
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/chriszhenghaochen/NesTS-Vis/master/ipf.csv" AS row
+LOAD CSV WITH HEADERS FROM "DIR" AS row
 MATCH (u:User {id: toInt(row.station)})
 MATCH (a:IP {id: row.ip})
 CREATE (u)-[k:Visits]->(a)
@@ -31,9 +31,9 @@ SET k.frequency =toInt(row.count);
 
 ###CREATE uses RELATIONSHIPS
 USING PERIODIC COMMIT
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/chriszhenghaochen/NesTS-Vis/master/statf1.csv" AS row
+LOAD CSV WITH HEADERS FROM "DIR" AS row
 MATCH (u:User {id: toInt(row.user)})
-MATCH (a:Station {id: row.station})
+MATCH (a:Station {id: toInt(row.station)})
 CREATE (u)-[k:Visits]->(a)
 SET k.frequency =toInt(row.start);
 
