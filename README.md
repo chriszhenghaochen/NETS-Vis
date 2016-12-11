@@ -1,7 +1,7 @@
-# NETS-Vis #
+# NeTS-Vis #
 
 ## overview
-NETS-Vis is a ***Neural Net based Framework of Safety-Oriented Time Time-Spatial Visualization***
+NeTS-Vis is a ***Neural Net based Framework of Safety-Oriented Time Time-Spatial Visualization***
 
 * The main algorithms of it are ***Self-Organizing Map*** and ***Recurrent Neural Net***,
 
