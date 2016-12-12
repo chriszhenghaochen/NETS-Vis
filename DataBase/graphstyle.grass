@@ -42,7 +42,7 @@ node.IP {
 }
 
 relationship.Uses {
-  shaft-width: 3px;
+  shaft-width: 8px;
   caption: '{frequency}';
   color: #68BDF6;
   border-color: #5CA8DB;
@@ -54,5 +54,6 @@ relationship.Visits {
   border-color: #60B58B;
   text-color-internal: #FFFFFF;
   caption: '{frequency}';
+  shaft-width: 2px;
 }
 
