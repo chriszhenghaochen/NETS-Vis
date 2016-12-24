@@ -1,7 +1,7 @@
 # NeST-Vis #
 
 ## overview
-NeST-Vis is a ***Neural Net based Framework of Safety-Oriented Time Time-Spatial Visualization***
+NeST-Vis is a ***Neural Net based Framework of Time-Spatial Visualization***
 
 * The main algorithms of it are ***Self-Organizing Map*** and ***Recurrent Neural Net***,
 
