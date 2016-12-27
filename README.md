@@ -46,6 +46,7 @@ You are alwayws welcome to contact any of us if you have any ideas or feel free 
 ### RNN predict:
  * Visualization Tool
  * Tensorflow
+ * Keras
 
 ### DataBase
  * Neo4j
@@ -54,6 +55,7 @@ I would suggest you just download 3 different to execute all of them.
  * Annaconda: https://www.continuum.io/
  * Tensorflow: https://www.tensorflow.org/
  * Neo4j: https://neo4j.com/
+ * Keras: https://keras.io/
 
 ## Publication:
 The paper has submitted to the The 2017 International Joint Conference on Neural Networks (IJCNN 2017)
