@@ -1,0 +1,26 @@
+//////////////////////////regular visit////////////////////////////////
+
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/chriszhenghaochen/NesTS-Vis/master/visitMatrix2.csv" AS row
+MATCH (u:UserV2 {id: toInt(row.user)})
+MATCH (a:StationV {id: toInt(row.station)})
+CREATE (u)-[k:VisitsV]->(a)
+SET k.frequency =toInt(row.start);
+
+
+//////////////////////////predict visit/////////////////////////////////
+USING PERIODIC COMMIT
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/chriszhenghaochen/NesTS-Vis/master/visitMatrix.csv" AS row
+MATCH (u:UserV {id: toInt(row.user)})
+MATCH (a:StationV {id: toInt(row.station)})
+CREATE (u)-[k:VisitsV]->(a)
+SET k.frequency =toInt(1);
+
+
+//////////////////////////find out/////////////////////////////////
+
+MATCH p=()-[r:VisitsV]->() RETURN p
+
+
+//////////////////////////delete/////////////////////////////////
+MATCH ()-[r:VisitsV]->() DELETE r

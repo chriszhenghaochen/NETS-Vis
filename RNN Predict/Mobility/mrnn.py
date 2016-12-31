@@ -58,5 +58,25 @@ output = model.predict_classes(dataTest, batch_size=64, verbose=0)
 print(output)
 # Final evaluation of the model
 scores = model.evaluate(dataTest, labelTest, verbose=0)
+
 print("----------------score----------------")
 print("Accuracy: %.2f%%" % (scores[1]*100))
+
+#--------------------------------------output--------------------------------------------------#
+
+station = pd.read_csv("station.csv").values
+station = station.ravel()
+dict = {}
+dict1 = {}
+dict[0] = 0
+for index, item in enumerate(station):
+    dict[index + 1] = item
+
+for i in range(len(output)):
+    output[i] = dict[output[i]]
+
+print(output)
+
+result = pd.DataFrame(output, columns = ['station'])
+result.to_csv('visitMatrix.csv',index=True)
+result.to_csv('../../Documents/code/NesTS-Vis/visitMatrix.csv',index=True)

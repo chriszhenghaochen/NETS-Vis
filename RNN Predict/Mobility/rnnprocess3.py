@@ -16,7 +16,7 @@ dict = {}
 dict1 = {}
 
 for index, item in enumerate(ip):
-    dict[item] = index + 1
+    dict[item] = index
 
 # print(dict)
 
@@ -91,7 +91,7 @@ user3 = newFile[0].values
 user2 = np.unique(user3)
 user = []
 for index, item in enumerate(user2):
-    dict3[item] = index
+    dict3[item] = index + 1
 
 for i in user3:
     user.append(dict3[i])
