@@ -21,18 +21,24 @@ fileTest = file.sample(frac=0.2, replace=True)
 labelTrain = fileTrain[str(length)].values.astype(int)
 labelTrain = np_utils.to_categorical(labelTrain, 102)
 dataTrain1 = np.asarray(fileTrain[dim].values/101)
-dataTrain = np.reshape(dataTrain1, (len(dataTrain1), 1, length ))
+dataTrain = np.reshape(dataTrain1, (len(dataTrain1), 1, length))
 
 #test
-labelTest = fileTest[str(length )].values.astype(int)
+labelTest = fileTest[str(length)].values.astype(int)
 labelTest = np_utils.to_categorical(labelTest, 102)
 dataTest1 = np.asarray(fileTest[dim].values/101)
-dataTest = np.reshape(dataTest1, (len(dataTest1), 1, length ))
+dataTest = np.reshape(dataTest1, (len(dataTest1), 1, length))
 
 print("----------------input----------------")
 print(dataTrain)
 print(labelTrain)
 
+labels = file[str(length)].values.astype(int)
+inputdata1 = np.asarray(file[dim].values/101)
+inputdata = np.reshape(inputdata1, (len(inputdata1), 1, length))
+
+print(labels)
+print(inputdata)
 #----------------------------------------------train--------------------------------------------------------#
 model = Sequential()
 model.add(LSTM(256, return_sequences=True,
@@ -48,13 +54,16 @@ model.compile(loss='categorical_crossentropy',
               optimizer='rmsprop',
               metrics=['accuracy'])
 
+
+
 model.fit(dataTrain, labelTrain, nb_epoch=1000, batch_size=64)
 
 
 
 #--------------------------------------predict and evaluation--------------------------------------------------#
+
 print("----------------predict----------------")
-output = model.predict_classes(dataTest, batch_size=64, verbose=0)
+output = model.predict_classes(inputdata, batch_size=64, verbose=0)
 print(output)
 # Final evaluation of the model
 scores = model.evaluate(dataTest, labelTest, verbose=0)
@@ -75,8 +84,15 @@ for index, item in enumerate(station):
 for i in range(len(output)):
     output[i] = dict[output[i]]
 
+for i in range(len(labels)):
+    labels[i] = dict[labels[i]]
+
 print(output)
 
 result = pd.DataFrame(output, columns = ['station'])
 result.to_csv('visitMatrix.csv',index=True)
-result.to_csv('../../Documents/code/NesTS-Vis/visitMatrix.csv',index=True)
+# result.to_csv('../../Documents/code/NesTS-Vis/visitMatrix.csv',index=True)
+
+result = pd.DataFrame(labels, columns = ['station'])
+result.to_csv('visitMatrix3.csv',index=True)
+# result.to_csv('../../Documents/code/NesTS-Vis/visitMatrix3.csv',index=True)
