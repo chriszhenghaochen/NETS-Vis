@@ -35,7 +35,7 @@ from lasso import Datum
 from simplebar import barchart as simplebarchart
 from heatmap import HeatMap as HP
 from communication import communication as Com
-
+from visitMatrix4 import Line as line
 
 
 class SOM(object):
@@ -478,7 +478,7 @@ class SOM(object):
 #           umat[umat<=mn]=mn
             cset = contour(umat,np.linspace(mn,mx,15),linewidths=0.7,cmap=cm.Blues)
 
-        if show_data=='Yes':
+        if show_data =='Yes':
             plt.scatter(coord[:,1], coord[:,0], s=2, alpha=1.,c='Gray',marker='o',cmap='jet',linewidths=3, edgecolor = 'Gray')
 
             #modified
@@ -568,6 +568,9 @@ class SOM(object):
                         print lman1.data[i].labour
                         bararr1.append(int(lman1.data[i].labour))
 
+                #line
+                li = line()
+                li.plot(bararr1)
 
                 # #heat map
                 # hmap = HP(names = bararr1,filename = self.filename)
@@ -621,6 +624,12 @@ class SOM(object):
                             tmpname.append(int(lman.data[j].labour))
 
                     names.append(tmpname)
+
+
+                # line
+                li = line()
+                li.plot(names[0])
+                li.plot(names[1])
 
                 # #processing heat
                 # hmap = HP(names = names[0], names2 = names[1],filename = self.filename)

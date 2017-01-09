@@ -9,7 +9,7 @@ import sompy3 as SOM
 from pandas.tools.plotting import scatter_matrix
 from pandas import Series, DataFrame
 
-file = 'ipstat1.csv'
+file = 'statf1.csv'
 # comfile = 'comm-data-Sun.csv'
 file_fri_1 = pd.read_csv(file)
 
@@ -20,8 +20,8 @@ labour_fri_1 = file_fri_1['user'].values.astype('str')
 
 attr = file_fri_1.columns.values.astype('str')
 
-msz0 = 30
-msz1 = 30
+msz0 = 100
+msz1 = 100
 
 Data = data_fri_1
 label = labour_fri_1
@@ -55,7 +55,7 @@ a = sm.view_map( what='codebook', which_dim='all',
 # d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='', text_show= 'Yes')
 
 # #for map only
-d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='', HCI = 'Yes',compare= 0)
+d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='',HCI = 'Yes',compare= 0)
 
 # # display
-# d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='',HCI = 'Yes',compare= 2, text_show = 'Yes')
+d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='',HCI = 'Yes',compare= 0, text_show = 'Yes')

@@ -6,10 +6,14 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import spline
 
 start = '2015-12-17 10:00:00'
-duration = 240
+duration = 360
 frequency = '1min'
 
-stat = [10264, 10159, 10065]
+# stat = [10264, 10159, 10065]
+# stat = [100, 10001, 10006, 10010, 10014, 10022, 10023, 10027,  1003, 10038, 10041]
+stat = [10022]
+#stat = pd.read_csv("station.csv").values.ravel()
+print(stat)
 plotdict = {}
 
 for s in stat:
@@ -157,6 +161,10 @@ for key, value in plotdict.items():
     plt.plot(xnew, power_smooth)
     # plt.plot(times, value)
     label.append(key)
+
+# for key, value in plotdict.items():
+#     plt.plot(times, value)
+
 
 tick_locs = [xnew[0], xnew[int(len(xnew)/3)], xnew[int(len(xnew)/3*2)], xnew[int(len(xnew) - 1)]]
 tick_lbls = ([times[0], times[int(len(times)/3)], times[int(len(times)/3*2)], times[int(len(times) - 1)]])
