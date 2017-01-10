@@ -75,7 +75,7 @@ if 1:
 
     rnn = RNN(length = length)
     score = rnn.scores
-    y.append(score)
+    y.append(score[1])
 
     print(y)
     y_pos = np.arange(len(objects))

@@ -62,12 +62,12 @@ for length in lens:
         clf = predictors[name].fit(X_train, y_train)
         score = clf.score(X_test, y_test)
 
-        dicPlot[name].append(score)
+        dicPlot[name].append(score*100)
         print(score)
 
     rnn = RNN(length = length)
-    score = rnn.scores
-    dicPlot['RNN'].append(score)
+    score = rnn.scores[1]
+    dicPlot['RNN'].append(score*100)
 
 leg = []
 for key, value in dicPlot.items():
