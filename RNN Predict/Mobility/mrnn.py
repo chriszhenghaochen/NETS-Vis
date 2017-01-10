@@ -7,11 +7,11 @@ from keras.layers import Dropout
 from keras.utils import np_utils
 
 import pandas as pd
+length = 179
 
 #----------------------------------------------preprocessing--------------------------------------------------------#
 file = pd.read_csv('rnn3.csv')
-dim = np.arange(59).astype(str)
-length = 59
+dim = np.arange(length).astype(str)
 
 
 fileTrain = file.sample(frac=0.8, replace=True)

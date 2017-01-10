@@ -65,7 +65,7 @@ target = []
 dictEnd = {}
 # dictIP = dict()
 
-times = pd.date_range(start, periods=60, freq='1min')
+times = pd.date_range(start, periods=360, freq='1min')
 times = np.array(times)
 
 datStart = times[0]
