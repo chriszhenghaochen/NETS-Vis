@@ -58,4 +58,4 @@ a = sm.view_map( what='codebook', which_dim='all',
 d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='', HCI = 'Yes',compare= 0)
 
 # # display
-# d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='',HCI = 'Yes',compare= 2, text_show = 'Yes')
+d = sm.view_U_matrix(distance2=2, row_normalized='No', show_data='Yes', contooor='Yes', blob='No', save='No', save_dir='',HCI = 'Yes',compare= 2, text_show = 'Yes')

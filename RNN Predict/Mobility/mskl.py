@@ -10,7 +10,7 @@ from sklearn.cross_validation import train_test_split
 from rnnclass import RNN
 
 lens = [59, 119, 179, 239, 299, 359]
-names = ['Most Frequent', 'Uniform', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest', 'RNN']
+names = ['Most Frequent', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest', 'RNN']
 dicPlot = {}
 
 for name in names:
@@ -38,9 +38,7 @@ for length in lens:
         # 'Random':
         #     dummy.DummyClassifier(strategy='stratified'),
         'Most Frequent':
-            dummy.DummyClassifier(strategy='most_frequent'),
-        'Uniform':
-            dummy.DummyClassifier(strategy='uniform')
+            dummy.DummyClassifier(strategy='most_frequent')
     }
 
 
@@ -57,8 +55,7 @@ for length in lens:
     X_train, X_test, y_train, y_test = train_test_split(
         data, label, test_size=0.2, random_state=294967295)
 
-
-    for name in ['Most Frequent', 'Uniform', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest']:
+    for name in ['Most Frequent', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest']:
         clf = predictors[name].fit(X_train, y_train)
         score = clf.score(X_test, y_test)
 

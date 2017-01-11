@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 
 
 length = 359
-objects  = ('Most Frequent', 'Uniform', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest', 'RNN')
+objects  = ('Most Frequent', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest', 'RNN')
 y = []
 
 
@@ -65,7 +65,7 @@ if 1:
         data, label, test_size=0.2, random_state=294967295)
 
 
-    for name in ['Most Frequent', 'Uniform', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest']:
+    for name in ['Most Frequent', 'KNN', 'Decision Tree', 'MultinomialNB', 'SVM', 'Random Forest']:
         clf = predictors[name].fit(X_train, y_train)
         score = clf.score(X_test, y_test)
 
