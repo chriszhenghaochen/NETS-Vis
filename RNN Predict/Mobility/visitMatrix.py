@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import spline
 
-start = '2015-12-17 10:00:00'
-duration = 360
+start = '2015-12-17 08:00:00'
+duration = 960
 frequency = '1min'
 
 # stat = [10264, 10159, 10065]

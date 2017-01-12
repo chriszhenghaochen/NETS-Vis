@@ -1,6 +1,6 @@
 /////////////////////////create V2////////////////////////////////
 match (n:Station) create(m:StationV2{id:n.id})
-match (n:User) create(n:UserV2{id:n.id})
+match (n:User) create(m:UserV2{id:n.id})
 
 //////////////////////////regular visit////////////////////////////////
 

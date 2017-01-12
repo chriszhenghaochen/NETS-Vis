@@ -2,8 +2,8 @@
 import pandas as pd
 import numpy as np
 
-start = '2015-12-17 10:00:00'
-duration = 30
+start = '2015-12-17 17:00:00'
+duration = 300
 frequency = '1min'
 
 ########################file process######################
