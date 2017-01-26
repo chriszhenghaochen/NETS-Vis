@@ -17,7 +17,7 @@ NeST-Vis is a ***Neural Net based Framework of Time-Spatial Visualization***
 ## Document
 
 * In each folder, there is readme for user as well as presentation slide with me and Jeremy
-* I will update the Published paper soon
+* See publication for more detail
 
 ## Members
 * Zhenghao Chen (zhenghao.chen@sydney.edu.au)
