@@ -17,7 +17,7 @@ NeST-Vis is a ***Neural Net based Framework of Time-Spatial Visualization***
 ## Document
 
 * In each folder, there is readme for user as well as presentation slide with me and Jeremy
-* I will update the Published paper soon
+* See publication for more detail
 
 ## Members
 * Zhenghao Chen (zhenghao.chen@sydney.edu.au)
@@ -58,7 +58,7 @@ I would suggest you just download 3 different to execute all of them.
  * Keras: https://keras.io/
 
 ## Publication:
-The paper has submitted to the The 2017 International Joint Conference on Neural Networks (IJCNN 2017)
+The paper has been accpeted by the The 2017 International Joint Conference on Neural Networks (IJCNN 2017)
 http://www.ijcnn.org/
 
 I will update the publicated version soon
