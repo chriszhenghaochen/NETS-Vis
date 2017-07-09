@@ -59,10 +59,9 @@ I would suggest you just download 3 different to execute all of them.
  * Keras: https://keras.io/
 
 ## Publication:
-The paper has been accpeted by the The 2017 International Joint Conference on Neural Networks (IJCNN 2017)
-http://www.ijcnn.org/
+International Joint Conference of Nerual Network(IJCNN) 2017
 
-I will update the publicated version soon
+http://ieeexplore.ieee.org/abstract/document/7965979/
 
 ## Acknowledgement:
 This work is sponsored by CSIRO https://www.csiro.au/ and USYD http://sydney.edu.au/
