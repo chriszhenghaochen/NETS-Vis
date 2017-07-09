@@ -64,6 +64,7 @@ International Joint Conference of Nerual Network(IJCNN) 2017
 http://ieeexplore.ieee.org/abstract/document/7965979/
 
 ## Citation
+```
 @inproceedings{chen2017neural,
   title={Neural net-based and safety-oriented visual analytics for time-spatial data},
   author={Chen, Zhenghao and Zhou, Jianlong and Wang, Xiuying and Swanson, Jeremy and Chen, Fang and Feng, Dagan},
@@ -72,6 +73,7 @@ http://ieeexplore.ieee.org/abstract/document/7965979/
   year={2017},
   organization={IEEE}
 }
+```
 
 ## Acknowledgement:
 This work is sponsored by CSIRO https://www.csiro.au/ and USYD http://sydney.edu.au/
