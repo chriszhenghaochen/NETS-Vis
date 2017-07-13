@@ -59,7 +59,7 @@ I would suggest you just download 3 different to execute all of them.
  * Keras: https://keras.io/
 
 ## Publication:
->Chen, Zhenghao, et al. "Neural net-based and safety-oriented visual analytics for time-spatial data." Neural Networks (IJCNN), 2017 International Joint Conference on. IEEE, 2017.
+*Chen, Zhenghao, et al. "Neural net-based and safety-oriented visual analytics for time-spatial data." Neural Networks (IJCNN), 2017 International Joint Conference on. IEEE, 2017.*
 
 http://ieeexplore.ieee.org/abstract/document/7965979/
 
